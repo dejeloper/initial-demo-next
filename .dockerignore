@@ -1,6 +1,7 @@
 # docker
-Dockerfile
+Dockerfile*
 .dockerignore
+docker-compose*
 
 # dependencies
 /node_modules 
@@ -9,7 +10,14 @@ Dockerfile
 npm-debug.log*
 
 # git
-README.MD 
+.git
+.gitignore
+README.MD
+LICENSE
 
 # next.js
 /.next/
+
+# VSC    
+.vscode 
+*.swp 
